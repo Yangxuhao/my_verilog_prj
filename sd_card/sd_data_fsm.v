@@ -10,7 +10,7 @@
 `define DATA_STATE_SEND_END_BIT         4'b1001
 `define DATA_STATE_RECEIVE_CRC_STATUS   4'b1010
 `define DATA_STATE_SEND_BUSY            4'b1011
-`define DATA_STATE_SEND_START_BIT            4'b1100/////////////////////////
+`define DATA_STATE_SEND_START_BIT       4'b1100/////////////////////////
 `define DATA_STATE_SEND_Z               4'b1101
 `define DATA_STATE_SEND_P               4'b1110
 module sd_data_fsm(
